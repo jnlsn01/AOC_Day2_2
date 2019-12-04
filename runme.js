@@ -21,9 +21,6 @@ var myInterface = readline.createInterface({
 
 myInterface.on('line', function (line) {
   var temp = new Array();
-  var aray1 = new Array();
-  var aray2 = new Array();
-  
 	for (noun = 0; noun < 100 ; noun++) {
 		for (verb = 0; verb < 100 ; verb++) {
 			temp = line.split(",");
